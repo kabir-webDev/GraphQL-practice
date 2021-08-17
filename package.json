@@ -1,0 +1,35 @@
+{
+  "name": "chatbook-application",
+  "version": "1.0.0",
+  "description": "This is a ERN based chat application",
+  "main": "app.js",
+  "scripts": {
+    "start": "set NODE_ENV=development && nodemon index.js",
+    "prod": "set NODE_ENV=production && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabir-webDev/chatbook-application.git"
+  },
+  "author": "Kabir Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabir-webDev/chatbook-application/issues"
+  },
+  "homepage": "https://github.com/kabir-webDev/chatbook-application#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.1.2",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "graphql": "^15.5.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3"
+  }
+}
